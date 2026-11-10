@@ -8,7 +8,12 @@
 #import <sys/stat.h>
 #import <errno.h>
 #import <stdio.h>
+#import <stdlib.h>
 #import <string.h>
+
+// dyld 私有接口，需手动声明
+extern const char *_dyld_get_image_name(uint32_t image_index);
+extern uint32_t _dyld_image_count(void);
 
 // ── 私有类声明（Logos 需要） ──
 @interface LSApplicationWorkspace : NSObject
