@@ -1,0 +1,9 @@
+Package: com.yg.lalabypass
+Name: lalabypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Lalamove driver app jailbreak environment bypass
+Maintainer: YG
+Author: YG
+Section: Tweaks
+Depends: mobilesubstrate
